@@ -1,2 +1,3 @@
 FROM store/oracle/database-instantclient:12.2.0.1
-RUN apt-get update --no-cache curl
+RUN apk update
+RUN apk add --no-cache curl
